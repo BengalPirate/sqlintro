@@ -6,7 +6,7 @@ SELECT * FROM Products LIMIT 5;
 1. Use an SQL SELECT statement to retrieve the first 10 rows of the Customer table, ordered by CustomerName.
 Paste your SQL statement below:
 
-SELECT * FROM Customers LIMIT 10;
+SELECT * FROM Customers ORDER BY CustomerName LIMIT 10;
 
 2. Use an SQL Select statement to retrieve the names and prices for all products that cost less than $20.
 Paste your SQL statement below:
