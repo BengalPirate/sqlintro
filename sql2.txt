@@ -56,12 +56,9 @@ JOIN
     Products p ON od.ProductID = p.ProductID
 GROUP BY 
     c.CustomerID, 
-    p.ProductID, 
-    c.CustomerName, 
-    p.ProductName
+    p.ProductID
 ORDER BY 
     c.CustomerName;
-
 
 4. Extend the previous query to give the total price as well as the customer name, product name, 
 and total quantity.  Here you will have
@@ -82,10 +79,7 @@ JOIN
     Products p ON od.ProductID = p.ProductID
 GROUP BY 
     c.CustomerID, 
-    p.ProductID, 
-    c.CustomerName, 
-    p.ProductName, 
-    p.Price
+    p.ProductID
 ORDER BY 
     c.CustomerName;
 
